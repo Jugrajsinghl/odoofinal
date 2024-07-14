@@ -1,0 +1,190 @@
+.userProfile{
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+
+.navbar-user{
+  border-bottom: 4px solid black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-left-item-user{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+  width: 18rem;
+  margin-left: 2rem;
+  justify-content: space-evenly;
+}
+
+.navbar-left-item-user button{
+font-size: 20rem;
+}
+
+
+.navbar-left-item-user p{
+  font-size: 30px;
+}
+
+
+.navbar-right-item-user{
+  /* border: 1px solid black; */
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar-right-item-user-noti{
+/* border: 1px solid black; */
+font-size: 2rem;
+border-radius: 50%;
+border: none;
+background-color: white;
+position: relative;
+}
+
+.navbar-right-item-user-noti span{
+font-size: 1rem;
+background-color: red;
+border-radius: 50%;
+display: block;
+width: 1.3rem;
+position: absolute;
+top: 0;
+right: 0;
+}
+
+.navbar-right-item-user-signout{
+  font-size: 30px;
+  border-radius: 0.8rem;
+  background: #ff6b6b; 
+  width: 10rem;
+  text-align: center;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-main{
+/* border: 2px solid black; */
+width: 70%;
+margin: 0px auto 0px auto;
+}
+
+
+.user-main-title{
+border-bottom: 4px solid black;
+margin-top: 2.5rem;
+font-size: 2rem;
+margin-bottom: 0.6rem;
+}
+
+.user-main-input{
+display: flex;
+/* border: 1px solid green; */
+margin-top: 1rem;
+
+height: 3rem;
+}
+
+.user-main-input input{
+/* font-size: 1.5rem;
+border-radius: 0.5rem; */
+border-radius: 0.5rem;
+width: 50rem;
+}
+
+.user-main-input button{
+/* width: 6rem;
+height: 3rem; */
+margin-left: 1rem;
+border-radius: 0.5rem;
+width: 7rem;
+}
+
+.user-main-book{
+margin-top: 3rem;
+}
+
+
+.user-main-book-title{
+font-size: 2rem;
+margin-bottom: 2rem;
+border-bottom: 3px solid black;
+}
+
+.user-main-book-bottom{
+display: flex;
+/* border: 1px solid black; */
+/* align-items: center; */
+/* margin-top: 1rem; */
+
+}
+
+.user-main-book-bottom img{
+margin-top: 5px;
+}
+
+.user-main-book-info{
+margin-left: 1rem;
+}
+
+.user-main-book-info-div{
+color: grey;
+}
+
+
+.user-main-book-info button{
+margin-top: 0.6rem;
+width: 10rem;
+height: 2rem;
+border-radius: 0.5rem;
+border: 1px solid red;
+background-color: yellow;
+}
+
+.user-profile-tag{
+border-bottom: 3px solid black;
+}
+
+.user-profile{
+/* border: 1px solid black; */
+margin-right: 1rem;
+width: 20%;
+margin-top: 3.3rem;
+}
+
+.user-profile img{
+margin: 0.2rem;
+}
+
+.profile-info-your{
+margin-bottom: 0.8rem;
+}
+
+.user-input{
+border-top: none;
+border-right: none;
+border-left: none;
+margin-bottom: 0.2rem;
+}
+
+.admin-email{
+margin-bottom: 0.9rem;
+}
+
+.user-name-right{
+font-weight: bold;
+}
+
+.user-address{
+/* border: 1px solid black; */
+display: flex;
+}

@@ -1,0 +1,182 @@
+/* KunalSearchSystem.css */
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.home-page {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.library-logo {
+  font-size: 24px;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.notification-btn, .signout-btn {
+  background-color: #90ee90;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.notification-btn:hover, .signout-btn:hover {
+  background-color: #32cd32;
+}
+
+.main-content {
+  padding: 20px;
+  margin-top: 2rem;
+  padding: 0rem 5rem 0rem 5rem;
+}
+
+.search-section {
+  margin-bottom: 20px;
+}
+
+.search-section h2 {
+  margin: 10px 0;
+}
+
+.search-section form {
+  display: flex;
+  gap: 10px;
+}
+
+.search-section input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-section button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #add8e6;
+  cursor: pointer;
+}
+
+.search-section button:hover {
+  background-color: #87cefa;
+}
+
+.book-results {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.book-card{
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.book-cred-desc{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin-left: 2rem;
+}
+
+.book-status{
+  margin-top: 1rem;
+  text-align: center;
+  width: 10rem;
+}
+
+.book-status {
+  background-color: #ff4500;
+}  
+
+
+
+@media (max-width : 640px){
+  .book-results {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .main-content {
+      padding: 20px;
+      margin-top: 2rem;
+      /* padding: 0rem 5rem 0rem 5rem; */
+    }
+}
+
+
+@media (max-width : 490px){
+  .book-card{
+      display: flex;
+      margin-bottom: 2rem;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+
+    .book-cred-desc{
+      width: 100%;
+      margin-left: -0rem;
+      text-align: center;
+    }
+
+    .book-cred-desc p{
+        margin-bottom: 1rem;
+    }
+
+    .book-status{
+      margin: 0px auto 0px auto;
+    }
+}
+
+
+@media (max-width : 425px){
+  .home-page{
+      max-width: 100%;
+
+      padding-left: 0;
+      padding-right: 0.2rem;
+  }
+
+  .header{
+      padding: 0;
+  }
+
+
+}
+
+
+@media (max-width : 355px){
+  .input-search-area{
+      width: 0.1rem;
+  }
+
+  .input-search-area input{
+      width: 10rem;
+  }
+
+  .input-search-area button{
+      width: 5rem;
+  }
+}

@@ -1,0 +1,158 @@
+.new-arrival-main-dance{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    border-bottom: 4px solid black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 18rem;
+    margin-left: 2rem;
+    justify-content: space-evenly;
+}
+
+.navbar-left-item img{
+    width: 3rem;
+}
+
+.navbar-left-item p{
+    font-size: 30px;
+}
+
+
+.navbar-right-item{
+    /* border: 1px solid black; */
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+
+}
+
+.navbar-right-item button{
+   
+    font-size: 30px;
+    border-radius: 0.8rem;
+    background: #ff6b6b; 
+    width: 10rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+
+
+
+.main-section{
+    /* border: 1px solid black; */
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.Title p{
+    font-size: 2rem;
+}
+
+.search-area{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    /* margin-left: auto; */
+}
+
+.search-bar{
+     /* display: flex;
+    justify-content: center; 
+     margin-top: 2rem;  */
+}
+
+.search-bar input{
+    font-size: 2rem;
+    width: 35rem;
+    text-align: start;
+    border-radius: 0.3rem;
+    border: 1px solid grey;
+}
+.book-section-node{
+    display: none;
+}
+.search-btn{
+    /* font-size: 2rem; */
+    margin-left: 1rem;
+}
+
+.search-btn button{
+    border-radius: 0.5rem;
+    width: 6rem;
+    height: 3rem;  
+    background: #ff6b6b;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.book-section{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+.new-arrival{
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+.Treding{
+    /* width: 40rem; */
+    /* border: 1px solid black; */
+    width: 50%;
+    text-align: start;
+}
+
+.books{
+    font-size: 2rem;
+}
+
+.new-arrival-img{
+    width: 8rem;
+    height: 10rem;
+}
+
+.new-arrival-main{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.new-arrival-desc{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new-trending p{
+    text-align: left;
+}
