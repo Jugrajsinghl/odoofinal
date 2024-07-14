@@ -19,13 +19,22 @@ This is a Library Management System built with React for the client-side and Nod
 ### 1. Clone the Repository
 
 
-git clone [https://github.com/your-username/library-management-system.git](https://github.com/Jugrajsinghl/odoofinal.git)
+git clone(https://github.com/Jugrajsinghl/odoofinal.git)
+
 cd library-management-system
+
 cd client
+
 npm install
+
 cd server
+
 npm install
+
 MONGODB_URI=your-mongodb-uri
+
 PORT=5000
+
 npm run dev
+
 nodemon index.js
