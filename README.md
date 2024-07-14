@@ -18,6 +18,6 @@ This is a Library Management System built with React for the client-side and Nod
 
 ### 1. Clone the Repository
 
-```sh
+
 git clone https://github.com/your-username/library-management-system.git
 cd library-management-system
