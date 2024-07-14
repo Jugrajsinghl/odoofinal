@@ -49,8 +49,8 @@ const UserProfile = () => {
               <img src="https://via.placeholder.com/100" alt="Book Cover" />
             </div>
             <div className='user-main-book-info'>
-              <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, odit.</div>
-              <div className='user-main-book-info-div'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero sunt eos vero aliquid est accusamus aspernatur in blanditiis consectetur qui voluptates harum fuga consequuntur nostrum, assumenda voluptatum alias modi nesciunt illo sapiente! Ducimus magnam dolores provident, sed aliquid autem minima quam mollitia atque nam animi nostrum, quaerat recusandae dicta placeat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, similique!</div>
+              <div>Harry Potter and the Philosopher's Stone</div>
+              <div className='user-main-book-info-div'>Harry Potter and the Philosopher's Stone" is the first book in the Harry Potter series by J.K. Rowling. It follows the young wizard, Harry Potter, as he discovers his magical heritage on his eleventh birthday and attends Hogwarts School of Witchcraft and Wizardry. The book introduces readers to a rich world of magic, mystery, and adventure, as Harry makes new friends and uncovers the truth about his parents' deaths and his own destiny.</div>
               <div>
                 <button>3 Days Remains</button>
               </div>
